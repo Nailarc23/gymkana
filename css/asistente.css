@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 480px){
+    body{
+        background-image: url(../assets/images/pescadito.svg);
+        background-size: 19em;
+        background-repeat: no-repeat;
+        background-position: 0em 2em;
+     
+    }
+
+    .asistente-__img--position{
+        position: relative;
+        top: 10em;
+    }
+
+
+h1, h2, p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: medium;
+    position: relative;
+    top:10em;
+
+}
+
+.asistente-img__mascota--position{
+    position: absolute;
+    left: -10.5em;
+}
+
+.asistente-img__mascota--tamaño{
+    width: 350px;
+}
+}
